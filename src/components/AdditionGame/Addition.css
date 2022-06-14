@@ -1,0 +1,71 @@
+.incorrect{
+    color: red;
+}
+
+.AdditionData{
+    width: 30%;
+    margin: 50px auto 0;
+    border: 6px solid purple;
+    padding: 0 20px 20px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 50px;
+    color: purple;
+    font-weight: 600;
+}
+input{
+    border: 5px solid purple;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: purple;
+    border-radius: 10px;
+}
+input::placeholder{
+    color: purple;
+}
+.Score{
+    color: purple;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.win{
+    margin-top: 100px;
+}
+.win h1{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1024px){
+    input{
+        padding: 6px;
+    }
+}
+@media screen and (max-width: 945px){
+    .AdditionData{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 640px){
+    .AdditionData{
+        width: 70%;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .Score{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 450px){
+    .AdditionData{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 350px){
+    input{
+        padding: 6px 0px;
+    }
+}
